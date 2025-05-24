@@ -1,0 +1,16 @@
+
+24/05/2025:
+
+- Dar uma revisada em  strftime
+- rever o codigo do relogio (tem algo estranho no codigo)
+- aprendi como funciona o "def":
+
+* def — palavra-chave que indica que você está definindo uma função.
+
+* nome_da_funcao — o nome que você escolhe para a função.
+
+* parâmetros — valores que a função pode receber para trabalhar (opcional).
+
+* return — comando para a função devolver um resultado (opcional).
+
+OU SEJA ELE É UM BLOCO REAUTILIZÁVEL NO CODIGO PYTHON (bom dar uma olhada se tem outra forma de fazer esse tipo de bloco de codigo).
