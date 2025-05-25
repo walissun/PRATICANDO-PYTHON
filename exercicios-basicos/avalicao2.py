@@ -4,9 +4,13 @@
 (not True) or (False and True)
 print.result()
 """
-#o correto
+
+#O codigo correto
+print("questão 1")
+
 print((not True) or (False and True))
 
+print("questão 2")
 
 x = 5
 y = "3"
