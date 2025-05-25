@@ -39,3 +39,6 @@ Meu nome é **Walisson**, e este repositório é parte da minha rotina de estudo
 ---
 
 Se quiser usar ou contribuir com alguma ideia, fique à vontade!
+
+
+![Certificado do Curso](./certificado.png)
