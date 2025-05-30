@@ -51,6 +51,17 @@ def alterar_status():
     except IndexError:
         messagebox.showwarning("Atenção", "Selecione uma tarefa para alterar o status.")
 
+# Função para aplicar cor com base no status
+def aplicar_cor(indice, emoji):
+    cores = {
+        "🟡": "orange",
+        "🟠": "darkorange",
+        "🔵": "royalblue",
+        "✅": "green"
+    }
+    cor = cores.get(emoji, "black" )
+    lista.itemconfig(indice, fg=cor)
+
 # Interface principal
 janela = tk.Tk()
 janela.title("Lista de Tarefas com Status")
