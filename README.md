@@ -25,7 +25,8 @@ O repositório está dividido em pastas conforme os tópicos ou tipos de exercí
 - [x] Primeiros scripts no terminal
 - [x] Revisão de estruturas de repetição
 - [x] Projeto simples com interface (*PROJETO DESTAQUE:* Checklist funcional criado com biblioteca de GUI e convertido em executável.)
-      📌 **Como executar:**
+      
+       📌 **Como executar:**
 
 Baixe/clique em "Code" e clone ou baixe este repositório;
 
