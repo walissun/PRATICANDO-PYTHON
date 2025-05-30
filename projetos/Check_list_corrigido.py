@@ -71,3 +71,15 @@ lista.pack(pady=10)
 
 # Executa o app
 janela.mainloop()
+
+# FUTURAMENTE IMPLEMENTAR
+
+"""
+
+* Adicionar cores diferentes conforme o status.
+
+* Salvar/abrir a lista em um arquivo.
+
+* Adicionar atalhos de teclado (como Enter para adicionar, Delete para remover etc).
+
+"""
