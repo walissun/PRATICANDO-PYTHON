@@ -6,7 +6,11 @@ from tkinter import simpledialog, messagebox
 def adicionar_item():
     item = entrada.get()
     if item:
-        lista.insert(tk.END, f"🟡 {item} (Em andamento)")
+        status_emoji = "🟡"
+        status_nome = "Em andamento"
+        nova_tarefa = f"{status_emoji} {item} ({status_nome})"
+        lista.insert(tk.END, nova_tarefa)
+        aplicar_cor(lista.size() - 1, status_emoji)
         entrada.delete(0, tk.END)
 
 def remover_item():
@@ -46,6 +50,7 @@ def alterar_status():
             nova_tarefa = f"{emoji} {tarefa_pura} ({nome})"
             lista.delete(selecionado)
             lista.insert(selecionado, nova_tarefa)
+            aplicar_cor(selecionado, emoji)
         else:
             messagebox.showinfo("Cancelado", "Status não alterado.")
     except IndexError:
