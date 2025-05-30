@@ -86,5 +86,13 @@ Debug = descobrir, investigar e entender erros
 Você pode usar try/except após entender o erro com debug, para tratá-lo de forma inteligente.
 
 
+29/05/2025 
 
+tk.END é uma constante usada em interfaces gráficas (GUI) com biblioteca Tkinter do Python.
+Ela representa o final de um widget de texto, como uma caixa de texto ou um editor de texto.
+É utilizada pra inserir ou apagar conteúdo em posição especifica do widget.
+
+EM RESUMO : 
+
+tk.END: Representa o final (última posição) de um widget de texto.
 
