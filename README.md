@@ -24,7 +24,7 @@ O repositório está dividido em pastas conforme os tópicos ou tipos de exercí
 - [x] Instalação do Python e Git
 - [x] Primeiros scripts no terminal
 - [x] Revisão de estruturas de repetição
-- [ ] Projeto simples com interface (em breve!)
+- [x] Projeto simples com interface
 
 ## 📌 Tecnologias
 
