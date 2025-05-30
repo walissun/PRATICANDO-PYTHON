@@ -24,7 +24,27 @@ O repositório está dividido em pastas conforme os tópicos ou tipos de exercí
 - [x] Instalação do Python e Git
 - [x] Primeiros scripts no terminal
 - [x] Revisão de estruturas de repetição
-- [x] Projeto simples com interface
+- [x] Projeto simples com interface (*PROJETO DESTAQUE:* Checklist funcional criado com biblioteca de GUI e convertido em executável.)
+      📌 **Como executar:**
+
+Baixe/clique em "Code" e clone ou baixe este repositório;
+
+Navegue até a pasta:
+projetos/dist/
+
+Dentro da pasta dist, execute o arquivo .exe do checklist.
+
+⚠️ Importante: Para rodar o projeto em Python (caso queira executá-lo diretamente pelo código), certifique-se de ter instalada a biblioteca usada para a interface gráfica (usada no projeto: **tkinter**).
+
+📈 **Melhorias futuras:**
+
+Salvar a lista de tarefas em um arquivo e carregá-la automaticamente ao abrir;
+
+Melhorar a interface com recursos de front-end mais modernos (em estudo);
+
+Deixar a aplicação mais personalizável e com design responsivo.
+
+
 
 ## 📌 Tecnologias
 
